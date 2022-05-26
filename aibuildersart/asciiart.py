@@ -333,3 +333,29 @@ class Playboy:
         return self.name
 
  
+class IDAMRAMINTRA:
+    '''
+    test = IDAMRAMINTRA()
+    test.art()
+    '''
+
+    def __init__(self):
+        self.name = 'kongNeko Krup'
+
+    def art(self):
+        asciiart = '''
+
+     |\_/|                  
+     | @ @   IDAMRAMINTRA!! 
+     |   <>              _  
+     |  _/\------____ ((| |))
+     |               `--' |   
+ ____|_       ___|   |___.' 
+/_/_____/____/_______|
+
+        '''
+        print(asciiart)
+
+    def __str__(self):
+        return self.name
+
